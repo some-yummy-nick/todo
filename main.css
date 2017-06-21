@@ -1,0 +1,85 @@
+.todo{
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+}
+h1{
+    background-color: #f0db4f;
+    text-transform: uppercase;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    list-style-type: none;
+
+    padding-left: 10px;
+}
+ul li:nth-child(odd){
+    background-color: aquamarine;
+}
+label{
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    cursor: pointer;
+    width: 58%;
+}
+.form__field{
+    width: 77%;
+}
+li:hover .btn--hover{
+    opacity: 1;
+}
+form{
+    border-top: 1px solid rgba(0,0,0,.1);
+    padding-top: 10px;
+    margin-left: 10px;
+}
+.formfield{
+    width: 100%;
+    padding: 10px;
+}
+
+.textfield{
+    display: none;
+    width: 58%;
+    margin-left: 10px;
+}
+.editing .textfield{
+    display: inline-block;
+}
+.editing label{
+    display: none;
+}
+.btn{
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 10px 15px;
+   border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: background-color .2s cubic-bezier(.4,0,.2,1);
+
+}
+.btn:hover{
+    background-color: rgba(158,158,158,.2);
+
+}
+.btn--hover{
+    opacity: 0;
+    margin-top: 0;
+    color:#757575;
+}
+.decoration{
+    text-decoration: line-through;
+    color: grey;
+}

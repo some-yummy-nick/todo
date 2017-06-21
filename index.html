@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Todo</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<div class="todo">
+  <h1>Todo.js</h1>
+  <ul id="js-list">
+    <li>
+      <input class="checkbox" type="checkbox" id="check1">
+      <label for="check1">Изучить Javascript</label>
+      <input type="text" class="textfield">
+      <button class="btn btn--hover js-change" type="button">Изменить</button>
+      <button class="btn btn--hover js-delete" type="button">Удалить</button>
+    </li>
+    <li>
+      <input class="checkbox" type="checkbox" id="check2">
+      <label for="check2">Изучить React</label>
+      <input type="text" class="textfield">
+      <button class="btn btn--hover js-change" type="button">Изменить</button>
+      <button class="btn btn--hover js-delete" type="button">Удалить</button>
+    </li>
+    <li>
+      <input class="checkbox" type="checkbox" id="check3">
+      <label for="check3">Изучить php</label>
+      <input type="text" class="textfield">
+      <button class="btn btn--hover js-change" type="button">Изменить</button>
+      <button class="btn btn--hover js-delete" type="button">Удалить</button>
+    </li>
+  </ul>
+  <form id="js-form">
+    <label class="form__field">
+      <input class="formfield" type="text" id="js-field">
+    </label>
+    <input class="btn" type="submit" value="Добавить">
+  </form>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
